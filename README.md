@@ -1,1 +1,2 @@
-# webpack-ts-template
+# webpack ts template
+
