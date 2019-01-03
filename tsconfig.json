@@ -16,7 +16,15 @@
         "target": "es5",
         "jsx": "react",
         "allowJs": true,
-        "sourceMap": true
+        "sourceMap": true,
+        "baseUrl": "./",
+        "paths": {
+            "@": ["src/index"],
+            "@/*" : [
+                "src/*",
+                "src/*/index"
+            ]
+        }
     },
     "exclude": [
         "node_modules"
