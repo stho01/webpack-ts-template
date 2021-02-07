@@ -10,7 +10,8 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            title: "Output management"
+            title: "Output management",
+            template: "index.html"
         }),
         new CleanWebpackPlugin(["dist"]),
         new webpack.HotModuleReplacementPlugin()
